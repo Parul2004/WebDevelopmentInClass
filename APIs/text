@@ -1,0 +1,24 @@
+API 
+websites are divided into frontend and backend
+frontend is for user interface
+Backend is used for storing data, for managing the data,
+behind the scenes backend kaam karta hai , 
+authentiation vegra user de sab user dekhta hai
+
+server and clients both are computers
+server pe backend wala application run hota hai
+clients pe frontend wala application run hota hai
+
+server is connected to database
+frontend request send karta hai backend ko 
+and backend response send karta hai frontend ko
+
+API - application Programming Interface
+backend ka 1 part API hai
+
+jo bhi communication hote hai frontend and backend ke bech me to vo API ke through hote hai
+API - Backend AND frontend
+
+API me endPoints hote hai 
+EndPoints are basically URL's
+API means IS URL pe agr request bhejo ge to aapko ya wala data mile

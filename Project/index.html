@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(197, 138, 243);
+        }
+        .product{
+            /* border: 6px solid rgb(68, 6, 255); */
+            border-radius: 4px;
+            background-color: rgb(217, 208, 250);
+            padding: 23px;
+            text-align: center;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        #container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+            border-radius: 22px;
+            box-shadow: 4px 4px 12px black;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Fake Store</h1>
+    <div id="container">
+      <div class="product">
+        <h3>Bag</h3>
+        <img
+          src="https://media.istockphoto.com/id/665536664/photo/small-bag-brown-leather-isolated-on-white-background.jpg?b=1&s=612x612&w=0&k=20&c=bsyu-k8tRJqA7kMtKlZTJafnuxFDqrnYHZQMUYogDdg="
+          alt=""
+        />
+        <p>Price => 3499</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

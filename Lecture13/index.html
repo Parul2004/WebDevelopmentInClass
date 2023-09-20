@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          ul{
+            padding: 10px;
+            border: 2px solid black;
+            background-color: crimson;
+            border-radius: 12px;
+        }
+        li{
+            padding: 5px;
+            background-color: pink;
+            border:2px solid black;
+            margin: 13px;
+            border-radius: 10px;
+        }
+        .parul{
+            display: flex;
+            justify-content: space-between;
+        }
+        .del{
+            padding: 10px;
+        }
+        .edit-box{
+            border: 4px solid crimson;
+            /* position: absolute; */
+            margin: 23px;
+
+            display: none;
+        }
+        .edit-box.show{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <input type="text">
+    <button class="add">Add Todo</button>
+    <div class="edit-box">
+     <h3>Edit Task</h3>
+        <input class="edit-inp" type="text">
+        <button class="edit-ok">OK</button>
+    </div>
+    <ul>
+        <li class="parul">
+            <p>Go to gym</p>
+            <button class="del">Delete</button>
+        </li>
+        <li>Eat</li>
+        <li>Study</li>
+    </ul>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+
+{
+    "_comment1":"key will be in double quotes",
+    "_comment2":"comments are not permitted in json becoz it only contain data",
+    "speed":200,
+    "color":"red"
+}

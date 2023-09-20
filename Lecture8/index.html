@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: cursive;
+        }
+        .container{
+            background-color: rgb(117, 4, 117);
+            padding: 10px;
+            color: white;
+            border: 3px solid #010101;
+        }
+        /* css 
+        Specificity
+        Tag = 1
+        class = 10
+        id = 100
+
+        */
+        /* 10 + 1 = 11*/
+        .container > div{
+            background-color: rgb(175, 175, 247);
+            color: black;
+            border: 3px solid #ffffff;
+            margin: 10px;
+            padding: 5px;
+        }
+        /* 10 */
+        .blueColor{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <!-- Important -->
+
+    <div class="container blueColor">
+        <div>Item</div>
+        <div>Item</div>
+        <div>Item</div>
+        <div>Item</div>
+        <!-- New Item -->
+    </div>
+    <!-- rendering nhi ho payege elements ke -->
+    <script src="script.js"></script>
+</body>
+</html>
